@@ -1,0 +1,21 @@
+{
+  "name": "relix-theme-dark",
+  "displayName": "Relix Theme Dark",
+  "description": "Relix Theme Dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Relix Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Relix Theme Dark-color-theme.json"
+      }
+    ]
+  }
+}
