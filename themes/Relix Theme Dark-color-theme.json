@@ -21,7 +21,6 @@
     "sideBarTitle.foreground": "#c200f2",
     "sideBarSectionHeader.foreground": "#c200f2",
     "input.border": "#c200f2",
-    "inputOption.activeBorder": "#c200f2",
     "statusBar.background": "#c200f2",
     "list.activeSelectionForeground": "#c200f2",
     "list.focusOutline": "#c200f2",
@@ -34,7 +33,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#16d41f"
+        "foreground": "#16d42060"
       }
     },
     {
@@ -69,9 +68,7 @@
       "name": "Operator, Misc",
       "scope": [
         "keyword.control",
-        "constant.other.color",
-        "punctuation",
-        "meta.tag",
+
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -83,6 +80,13 @@
       ],
       "settings": {
         "foreground": "#d400ffa4"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": ["punctuation", "constant.other.color", "meta.tag"],
+      "settings": {
+        "foreground": "#ffffffea"
       }
     },
     {
@@ -126,17 +130,21 @@
     {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": [
-        "constant.numeric",
         "constant.language",
-        "support.constant",
         "constant.character",
         "constant.escape",
         "variable.parameter",
-        "keyword.other.unit",
         "keyword.other"
       ],
       "settings": {
         "foreground": "#c164ff"
+      }
+    },
+    {
+      "name": "others",
+      "scope": ["keyword.other.unit", "support.constant", "constant.numeric"],
+      "settings": {
+        "foreground": "#e9e9e9"
       }
     },
     {
@@ -151,7 +159,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#cf88ff"
+        "foreground": "#98beceef"
       }
     },
     {
@@ -544,7 +552,7 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#759b9b"
       }
     },
     {
